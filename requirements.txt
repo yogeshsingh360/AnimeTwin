@@ -1,0 +1,10 @@
+streamlit
+numpy
+faiss-cpu
+opencv-python
+Pillow
+insightface
+matplotlib
+scikit-learn
+tqdm
+onnxruntime
