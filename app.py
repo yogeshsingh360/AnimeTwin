@@ -168,8 +168,9 @@ if uploaded_file:
         # 🔹 IMPORTANT CHANGE HERE
         match_id = int(indices[0][0])
         match_data = metadata[str(match_id)]
+        AZURE_BASE_URL = "https://animetwinstorage.blob.core.windows.net/animetwine-images/"
 
-        img_path = match_data["image_path"]
+        img_path = AZURE_BASE_URL + match_data["image_path"]
         best_character = match_data["label"]
 
         # -----------------------------------
