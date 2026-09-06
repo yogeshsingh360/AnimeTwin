@@ -1,7 +1,7 @@
 streamlit
 numpy
 faiss-cpu
-opencv-python
+opencv-python-headless
 Pillow
 insightface
 matplotlib
